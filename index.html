@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="es-CL">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kinesiólogo Franco Vásquez G. | Kinesiología en Chiguayante</title>
+  <meta name="description" content="Kinesiólogo en Chiguayante. Atención kinésica profesional en consulta y a domicilio. Espirometría, test de ejercicio, rehabilitación pulmonar, kinesioterapia respiratoria, rehabilitación musculoesquelética, masoterapia, presoterapia y sesión de piedras calientes. Agenda por WhatsApp." />
+  <meta name="keywords" content="kinesiólogo Chiguayante, kinesiología Chiguayante, kinesioterapia respiratoria pediátrica, kinesiología a domicilio, espirometría Chiguayante, rehabilitación pulmonar, rehabilitación musculoesquelética, masoterapia Chiguayante, presoterapia Chiguayante" />
+  <meta property="og:title" content="Kinesiólogo Franco Vásquez G." />
+  <meta property="og:description" content="Salud cercana, movimiento y bienestar. Atención en consulta y a domicilio en Chiguayante." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://kinesiologofrancovasquez.com" />
+  <link rel="icon" href="assets/logo-circular.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --navy:#0A1923;
+      --navy2:#062B3A;
+      --teal:#00B2B3;
+      --coral:#FF4D4F;
+      --gray:#E6ECEF;
+      --white:#FFFFFF;
+      --text:#12222D;
+      --muted:#5B6870;
+      --shadow:0 20px 55px rgba(10,25,35,.12);
+      --radius:28px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:'Lato', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      color:var(--text);
+      background:#F7FAFB;
+      line-height:1.5;
+    }
+    img{max-width:100%;display:block}
+    a{text-decoration:none;color:inherit}
+    .container{max-width:1180px;margin:0 auto;padding:0 22px}
+    .topbar{
+      position:sticky;top:0;z-index:50;
+      background:rgba(255,255,255,.92);
+      backdrop-filter: blur(18px);
+      border-bottom:1px solid rgba(230,236,239,.9);
+    }
+    .nav{height:82px;display:flex;align-items:center;justify-content:space-between;gap:22px}
+    .brand{display:flex;align-items:center;gap:14px;min-width:0}
+    .brand img{height:56px;width:auto;object-fit:contain}
+    .brand-fallback{display:none}
+    .menu{display:flex;gap:26px;align-items:center;font-weight:900;font-size:.92rem;color:#273743}
+    .menu a:hover{color:var(--teal)}
+    .btn{
+      display:inline-flex;align-items:center;justify-content:center;gap:10px;
+      background:var(--teal);color:#fff;border-radius:18px;
+      padding:15px 22px;font-weight:900;font-family:'Montserrat',sans-serif;
+      box-shadow:0 12px 28px rgba(0,178,179,.25);
+      transition:.2s ease;
+    }
+    .btn:hover{transform:translateY(-2px);background:#009a9b}
+    .btn.dark{background:var(--navy);box-shadow:0 12px 28px rgba(10,25,35,.22)}
+    .btn.light{background:white;color:var(--navy);box-shadow:none;border:2px solid var(--navy)}
+    .hero{background:white;position:relative;overflow:hidden}
+    .hero:before{content:"";position:absolute;right:-160px;top:-160px;width:420px;height:420px;background:rgba(0,178,179,.10);border-radius:50%;filter:blur(12px)}
+    .hero:after{content:"";position:absolute;left:-180px;bottom:-220px;width:460px;height:460px;background:rgba(255,77,79,.10);border-radius:50%;filter:blur(20px)}
+    .hero-grid{position:relative;z-index:1;display:grid;grid-template-columns:1.05fr .95fr;gap:42px;align-items:center;padding:78px 0}
+    .eyebrow{display:inline-flex;align-items:center;gap:8px;background:rgba(230,236,239,.78);border:1px solid rgba(0,178,179,.25);border-radius:999px;padding:10px 14px;color:var(--navy2);font-weight:900;font-size:.88rem}
+    .dot{width:9px;height:9px;border-radius:50%;background:var(--teal);display:inline-block}
+    h1,h2,h3{font-family:'Montserrat',sans-serif;margin:0;color:var(--navy);letter-spacing:-.04em}
+    h1{font-size:clamp(2.55rem,6vw,5.1rem);line-height:.98;margin-top:20px;font-weight:900}
+    .hero p.lead{font-size:1.24rem;color:var(--muted);max-width:680px;margin:24px 0 0;line-height:1.75}
+    .accent{color:var(--teal)}
+    .hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:32px}
+    .mini-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:30px}
+    .mini-card{background:var(--navy);color:#fff;border-radius:22px;padding:18px;min-height:108px;display:flex;flex-direction:column;gap:10px;justify-content:center}
+    .mini-card span{font-size:1.55rem}.mini-card strong{font-family:'Montserrat',sans-serif;line-height:1.2}
+    .hero-card{background:linear-gradient(135deg,var(--navy),var(--navy2));border-radius:36px;padding:16px;box-shadow:var(--shadow)}
+    .hero-inner{background:white;border-radius:26px;padding:28px}
+    .hero-inner-top{display:flex;justify-content:space-between;gap:18px;align-items:flex-start;margin-bottom:20px}
+    .seal{width:92px;height:92px;object-fit:contain;flex:0 0 auto}
+    .card-title{font-size:1.6rem;font-weight:900;margin-top:4px}
+    .service-list{background:var(--gray);border-radius:26px;padding:22px;display:grid;gap:12px}
+    .service-chip{display:flex;align-items:center;gap:12px;background:white;border-radius:18px;padding:14px 15px;font-weight:900;box-shadow:0 8px 20px rgba(10,25,35,.06)}
+    .icon{width:42px;height:42px;border-radius:14px;background:var(--teal);color:white;display:grid;place-items:center;font-size:1.35rem;flex:0 0 auto}
+    .soft-note{margin-top:18px;background:rgba(255,77,79,.10);border-radius:22px;padding:18px}.soft-note strong{font-family:'Montserrat',sans-serif;color:var(--navy)}
+    section{padding:82px 0}
+    .section-title{text-align:center;max-width:760px;margin:0 auto 44px}.section-title .kicker{font-family:'Montserrat',sans-serif;color:var(--teal);font-weight:900;text-transform:uppercase;letter-spacing:.22em;font-size:.84rem;margin-bottom:10px}.section-title h2{font-size:clamp(2rem,4vw,3.2rem);font-weight:900}.section-title p{color:var(--muted);font-size:1.1rem;line-height:1.75}
+    .cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.info-card{background:white;border:1px solid rgba(230,236,239,.95);border-radius:28px;padding:25px;box-shadow:0 12px 32px rgba(10,25,35,.05);transition:.2s ease}.info-card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}.info-card h3{font-size:1.25rem;font-weight:900;margin:16px 0 8px}.info-card p{color:var(--muted);font-size:.98rem;line-height:1.72;margin:0}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:24px}.panel{border-radius:34px;padding:30px;box-shadow:0 16px 36px rgba(10,25,35,.08)}.panel.dark{background:linear-gradient(135deg,var(--navy),var(--navy2));color:white}.panel.light{background:var(--gray)}.panel h3{font-size:1.8rem;font-weight:900;color:inherit}.panel p{line-height:1.75;color:inherit;opacity:.86}.panel-head{display:flex;align-items:center;gap:14px;margin-bottom:18px}.check-list{display:grid;gap:9px;margin-top:22px}.check{display:flex;align-items:flex-start;gap:10px;background:rgba(255,255,255,.09);border-radius:16px;padding:12px 14px;font-weight:700}.panel.light .check{background:white;color:var(--navy);box-shadow:0 6px 15px rgba(10,25,35,.04)}.check:before{content:"✓";color:var(--teal);font-weight:900}
+    .evidence{background:linear-gradient(135deg,var(--navy),var(--navy2));border-radius:36px;color:white;padding:42px;display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center}.evidence h2{color:white;font-size:clamp(2rem,4vw,3rem)}.evidence p{color:var(--gray);line-height:1.8}.evidence .check{background:rgba(255,255,255,.08)}
+    .location-grid{display:grid;grid-template-columns:2fr 1fr;gap:24px}.map-card{background:var(--gray);border-radius:34px;padding:28px}.mapbox{margin-top:18px;border-radius:24px;overflow:hidden;background:white;box-shadow:inset 0 0 0 1px rgba(0,0,0,.04)}iframe{width:100%;height:310px;border:0}.reserve{background:var(--navy);color:white;border-radius:34px;padding:28px}.reserve h3{color:white;font-size:1.8rem}.reserve p{color:var(--gray)}
+    .contact-card{max-width:930px;margin:0 auto;background:white;border-radius:36px;padding:42px;text-align:center;box-shadow:var(--shadow)}.contact-card .seal{margin:0 auto 16px}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:26px;text-align:left}.contact-item{background:var(--gray);border-radius:20px;padding:18px}.contact-item strong{font-family:'Montserrat',sans-serif;color:var(--navy)}.contact-item p{font-size:1.1rem;font-weight:900;color:var(--teal);margin:.35rem 0 0}
+    footer{background:var(--navy);color:white;padding:30px 0}.footer-row{display:flex;align-items:center;justify-content:space-between;gap:18px}.footer-row img{height:58px;width:auto}.slogan{font-weight:900;color:var(--gray)}
+    .floating-wa{position:fixed;right:18px;bottom:18px;z-index:60;background:#25D366;color:white;border-radius:999px;padding:15px 18px;font-weight:900;box-shadow:0 12px 30px rgba(0,0,0,.22);display:flex;align-items:center;gap:8px}
+    @media(max-width:930px){.menu{display:none}.hero-grid,.split,.evidence,.location-grid{grid-template-columns:1fr}.hero-grid{padding:48px 0}.cards{grid-template-columns:1fr 1fr}.mini-grid{grid-template-columns:1fr}.brand img{height:46px}.nav{height:72px}.footer-row{flex-direction:column;text-align:center}.hero-inner-top{flex-direction:column}.contact-grid{grid-template-columns:1fr}}
+    @media(max-width:560px){.container{padding:0 16px}section{padding:58px 0}.cards{grid-template-columns:1fr}h1{font-size:2.65rem}.hero-actions .btn{width:100%}.panel,.map-card,.reserve,.contact-card{padding:22px;border-radius:26px}.evidence{padding:26px;border-radius:26px}.floating-wa{left:14px;right:14px;justify-content:center}.hero-card{border-radius:28px}.hero-inner{padding:20px;border-radius:22px}.service-chip{font-size:.95rem}}
+  </style>
+</head>
+<body>
+  <a class="floating-wa" href="https://wa.me/56936276729?text=Hola%2C%20quiero%20consultar%20disponibilidad%20para%20una%20atenci%C3%B3n%20kin%C3%A9sica." target="_blank" rel="noopener">📲 Agendar por WhatsApp</a>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="#inicio" aria-label="Inicio">
+        <img src="assets/logo-horizontal.png" alt="Kinesiólogo Franco Vásquez G." />
+        <span class="brand-fallback">Kinesiólogo Franco Vásquez G.</span>
+      </a>
+      <nav class="menu" aria-label="Menú principal">
+        <a href="#servicios">Servicios</a>
+        <a href="#modalidades">Atención</a>
+        <a href="#ubicacion">Ubicación</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <a class="btn" href="https://wa.me/56936276729?text=Hola%2C%20quiero%20consultar%20disponibilidad%20para%20una%20atenci%C3%B3n%20kin%C3%A9sica." target="_blank" rel="noopener">Agendar</a>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow"><span class="dot"></span> Atención profesional, cercana y personalizada</div>
+          <h1>Kinesiología integral para <span class="accent">respirar</span>, moverte y vivir mejor.</h1>
+          <p class="lead">Atención kinésica en consulta y a domicilio, con enfoque humano, clínico y personalizado para población pediátrica, adultos y adultos mayores.</p>
+          <div class="hero-actions">
+            <a class="btn" href="https://wa.me/56936276729?text=Hola%2C%20quiero%20consultar%20disponibilidad%20para%20una%20atenci%C3%B3n%20kin%C3%A9sica." target="_blank" rel="noopener">📲 Agenda tu hora por WhatsApp</a>
+            <a class="btn light" href="#servicios">Ver servicios</a>
+          </div>
+          <div class="mini-grid" aria-label="Población atendida">
+            <div class="mini-card"><span>👶</span><strong>Pediatría</strong></div>
+            <div class="mini-card"><span>👥</span><strong>Adultos y adultos mayores</strong></div>
+            <div class="mini-card"><span>🏠</span><strong>Consulta y domicilio</strong></div>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="hero-inner">
+            <div class="hero-inner-top">
+              <div>
+                <div class="eyebrow" style="padding:8px 12px">Consulta privada</div>
+                <h2 class="card-title">Kinesiólogo Franco Vásquez G.</h2>
+              </div>
+              <img class="seal" src="assets/logo-circular.png" alt="Logo circular Kinesiólogo Franco Vásquez G." />
+            </div>
+            <div class="service-list">
+              <strong style="font-family:Montserrat,sans-serif;font-size:1.18rem;color:var(--navy)">Servicios destacados</strong>
+              <div class="service-chip"><span class="icon">🫁</span> Kinesioterapia respiratoria</div>
+              <div class="service-chip"><span class="icon">📈</span> Espirometría y test de ejercicio</div>
+              <div class="service-chip"><span class="icon">🏃</span> Rehabilitación musculoesquelética</div>
+              <div class="service-chip"><span class="icon">✨</span> Masoterapia, presoterapia y bienestar</div>
+            </div>
+            <div class="soft-note">
+              <strong>Cuidamos tu salud, acompañamos tu recuperación</strong>
+              <p style="margin:.45rem 0 0;color:var(--muted)">Evaluación clínica, objetivos claros y atención cercana para cada etapa del proceso.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios">
+      <div class="container">
+        <div class="section-title">
+          <div class="kicker">Servicios</div>
+          <h2>Atención kinésica integral</h2>
+          <p>Prestaciones organizadas para que cada usuario pueda encontrar rápidamente el apoyo que necesita.</p>
+        </div>
+        <div class="cards">
+          <article class="info-card"><span class="icon">🫁</span><h3>Respiratoria</h3><p>Apoyo profesional para movilizar secreciones, permeabilizar vía aérea y acompañar cuadros respiratorios agudos o crónicos según evaluación clínica.</p></article>
+          <article class="info-card"><span class="icon">📊</span><h3>Función pulmonar</h3><p>Espirometría y test de ejercicio para orientar evaluación, seguimiento y toma de decisiones clínicas.</p></article>
+          <article class="info-card"><span class="icon">💪</span><h3>Movimiento y recuperación</h3><p>Rehabilitación musculoesquelética para recuperar movilidad, función y bienestar físico con atención personalizada.</p></article>
+          <article class="info-card"><span class="icon">🌿</span><h3>Bienestar físico</h3><p>Masoterapia, presoterapia y sesión de piedras calientes como apoyo al bienestar muscular y recuperación física.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="modalidades" style="background:white">
+      <div class="container">
+        <div class="section-title">
+          <div class="kicker">Modalidades</div>
+          <h2>Atención en consulta y a domicilio</h2>
+          <p>Elige la modalidad que mejor se adapte a tus necesidades, edad, condición y disponibilidad.</p>
+        </div>
+        <div class="split">
+          <article class="panel dark">
+            <div class="panel-head"><span class="icon">🏠</span><div><h3>Atención a domicilio</h3><p>Lunes a domingo</p></div></div>
+            <p>Ideal para población pediátrica, adultos mayores y usuarios que requieren atención en el hogar. La kinesioterapia respiratoria se promociona como atención domiciliaria.</p>
+            <div class="check-list">
+              <div class="check">Kinesioterapia respiratoria pediátrica</div>
+              <div class="check">Kinesioterapia respiratoria en adultos y adultos mayores</div>
+              <div class="check">Movilización de secreciones y permeabilización de vía aérea</div>
+              <div class="check">Manejo respiratorio en cuadros agudos y crónicos</div>
+              <div class="check">Rehabilitación pulmonar</div>
+              <div class="check">Rehabilitación musculoesquelética</div>
+            </div>
+          </article>
+          <article class="panel light">
+            <div class="panel-head"><span class="icon">📍</span><div><h3>Atención en consulta</h3><p>Martes, jueves y sábados · 10:00 a 19:30 hrs</p></div></div>
+            <p>Consulta ubicada en Paseo Santa Elena, pensada para evaluaciones, pruebas, rehabilitación y prestaciones de bienestar físico.</p>
+            <div class="check-list">
+              <div class="check">Espirometría</div>
+              <div class="check">Test de ejercicio</div>
+              <div class="check">Rehabilitación pulmonar</div>
+              <div class="check">Rehabilitación musculoesquelética</div>
+              <div class="check">Masoterapia</div>
+              <div class="check">Presoterapia</div>
+              <div class="check">Sesión de piedras calientes</div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="evidence">
+          <div>
+            <div class="kicker" style="color:var(--teal);font-family:Montserrat,sans-serif;font-weight:900;letter-spacing:.22em;text-transform:uppercase">Enfoque profesional</div>
+            <h2>Atención basada en evaluación, evidencia y acompañamiento.</h2>
+            <p>Cada intervención se adapta a la condición, edad, objetivos y contexto del usuario. La información se comunica de forma simple para facilitar decisiones y continuidad del tratamiento.</p>
+          </div>
+          <div class="check-list">
+            <div class="check">Evaluación clínica individual</div>
+            <div class="check">Atención profesional y personalizada</div>
+            <div class="check">Lenguaje claro para pacientes y familias</div>
+            <div class="check">Acompañamiento cercano durante la recuperación</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ubicacion" style="background:white">
+      <div class="container">
+        <div class="section-title">
+          <div class="kicker">Ubicación</div>
+          <h2>Consulta en Chiguayante</h2>
+          <p>Atención en un espacio profesional, cómodo y de fácil acceso.</p>
+        </div>
+        <div class="location-grid">
+          <div class="map-card">
+            <div class="panel-head"><span class="icon">📍</span><div><h3>Santa Elena N°317</h3><p>Paseo Santa Elena, Local N°18 · Chiguayante</p></div></div>
+            <p>Horario consulta: martes, jueves y sábados de 10:00 a 19:30 hrs.</p>
+            <div class="mapbox"><iframe title="Ubicación Paseo Santa Elena Chiguayante" src="https://www.google.com/maps?q=Santa%20Elena%20317%20Chiguayante%20Chile&output=embed" loading="lazy"></iframe></div>
+          </div>
+          <div class="reserve">
+            <span class="icon">📅</span>
+            <h3 style="margin-top:14px">Reserva tu atención</h3>
+            <p>Consulta disponibilidad directamente por WhatsApp para coordinar horario, modalidad y servicio.</p>
+            <a class="btn" style="width:100%;margin-top:15px" href="https://wa.me/56936276729?text=Hola%2C%20quiero%20consultar%20disponibilidad%20para%20una%20atenci%C3%B3n%20kin%C3%A9sica." target="_blank" rel="noopener">Escríbeme</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <div class="container">
+        <div class="contact-card">
+          <img class="seal" src="assets/logo-circular.png" alt="Logo circular" />
+          <div class="kicker" style="font-family:Montserrat,sans-serif;color:var(--teal);font-weight:900;letter-spacing:.22em;text-transform:uppercase">Agenda tu hora</div>
+          <h2 style="font-size:clamp(2rem,4vw,3.5rem);margin-top:12px">Te acompaño en tu recuperación.</h2>
+          <p style="color:var(--muted);font-size:1.1rem;max-width:660px;margin:18px auto 0;line-height:1.75">Agenda tu evaluación o consulta disponibilidad. WhatsApp es el principal canal de contacto.</p>
+          <div class="hero-actions" style="justify-content:center">
+            <a class="btn" href="https://wa.me/56936276729?text=Hola%2C%20quiero%20consultar%20disponibilidad%20para%20una%20atenci%C3%B3n%20kin%C3%A9sica." target="_blank" rel="noopener">Agenda tu hora por WhatsApp</a>
+            <a class="btn light" href="https://www.instagram.com/Klgofranco.ccp" target="_blank" rel="noopener">Instagram</a>
+          </div>
+          <div class="contact-grid">
+            <div class="contact-item"><strong>WhatsApp</strong><p>+56 9 3627 6729</p></div>
+            <div class="contact-item"><strong>Instagram</strong><p>@Klgofranco.ccp</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-row">
+      <img src="assets/logo-horizontal.png" alt="Kinesiólogo Franco Vásquez G." />
+      <div class="slogan">Salud cercana, movimiento y bienestar</div>
+      <a style="color:var(--teal);font-weight:900" href="https://wa.me/56936276729" target="_blank" rel="noopener">WhatsApp: +56 9 3627 6729</a>
+    </div>
+  </footer>
+</body>
+</html>
