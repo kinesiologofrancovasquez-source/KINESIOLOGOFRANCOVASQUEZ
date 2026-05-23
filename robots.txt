@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kinesiologofrancovasquez.com/sitemap.xml
